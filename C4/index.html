@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8"
+    http-equiv="content-type">
+<link href="main.css"
+    rel="stylesheet"
+    type="text/css">
+    <h1>Connect4 </h1>
+   </head>
+    <p id="winner-display">The winner is <span id="winner-name"></span></p>
+    </div>   
+<body>
+<div id="grid"></div>
+    <div class="row"
+         id="row-0">
+      <div class="column"
+           id="row-0-column-0"></div>
+      <div class="column"
+           id="row-0-column-1"></div>
+      <div class="column"
+           id="row-0-column-2"></div>
+      <div class="column"
+           id="row-0-column-3"></div>
+      <div class="column"
+           id="row-0-column-4"></div>
+      <div class="column"
+           id="row-0-column-5"></div>
+      <div class="column"
+           id="row-0-column-6"></div>
+    </div>
+    <div class="row"
+        id="row-1">
+      <div class="column"
+         id="row-1-column-0"></div>
+      <div class="column"
+         id="row-1-column-1"></div>
+      <div class="column"
+         id="row-1-column-2"></div>
+      <div class="column"
+         id="row-1-column-3"></div>
+      <div class="column"
+         id="row-1-column-4"></div>
+      <div class="column"
+         id="row-1-column-5"></div>
+      <div class="column"
+         id="row-1-column-6"></div>
+    </div>
+    <div class="row"
+        id="row-2">
+      <div class="column"
+         id="row-2-column-0"></div>
+      <div class="column"
+         id="row-2-column-1"></div>
+      <div class="column"
+         id="row-2-column-2"></div>
+      <div class="column"
+         id="row-2-column-3"></div>
+      <div class="column"
+         id="row-2-column-4"></div>
+      <div class="column"
+         id="row-2-column-5"></div>
+      <div class="column"
+         id="row-2-column-6"></div>
+    </div>
+    <div class="row"
+        id="row-3">
+      <div class="column"
+         id="row-3-column-0"></div>
+      <div class="column"
+         id="row-3-column-1"></div>
+      <div class="column"
+         id="row-3-column-2"></div>
+      <div class="column"
+         id="row-3-column-3"></div>
+      <div class="column"
+         id="row-3-column-4"></div>
+      <div class="column"
+         id="row-3-column-5"></div>
+      <div class="column"
+         id="row-3-column-6"></div>
+    </div>
+    <div class="row"
+        id="row-4">
+      <div class="column"
+         id="row-4-column-0"></div>
+      <div class="column"
+         id="row-4-column-1"></div>
+      <div class="column"
+         id="row-4-column-2"></div>
+      <div class="column"
+         id="row-4-column-3"></div>
+      <div class="column"
+         id="row-4-column-4"></div>
+      <div class="column"
+         id="row-4-column-5"></div>
+      <div class="column"
+         id="row-4-column-6"></div>
+    </div>
+    <div class="row"
+        id="row-5">
+      <div class="column"
+         id="row-5-column-0"></div>
+      <div class="column"
+         id="row-5-column-1"></div>
+      <div class="column"
+         id="row-5-column-2"></div>
+      <div class="column"
+         id="row-5-column-3"></div>
+      <div class="column"
+         id="row-5-column-4"></div>
+      <div class="column"
+         id="row-5-column-5"></div>
+      <div class="column"
+         id="row-5-column-6"></div>
+         <br>
+      </div>
+  <div class ="container" >
+   <header>
+      <h1>Score</h1>
+   </header>
+   <article>
+      <div class="article">
+         <table>
+            <thead>
+               <tr>
+                  <td>Player</td>
+                  <td>Wins</td>
+               </tr>
+            </thead>
+            <thead>
+               <tbody>
+                  <tr>
+                     <td class="team"> <span id="teamName1">Red</span></td>
+                     <td class="Wins"> <span id="team1wins">Red</span></td>
+                  </tr>
+                  <tr>
+                     <td class="team"> <span id="teamName2">Yellow</span></td>
+                     <td class="Wins"> <span id="team2wins">Yellow</span></td>
+                  </tr>
+               </tbody>
+            </thead>
+         </table>
+      </div>
+   </article>
+   <br>
+  </div>
+  <button id="reset-button">Reset</button>
+  <span class="status"></span>
+  <script src="connect4.js"
+        type="text/javascript"></script> 
+  <script src="connector.js"
+        type="text/javascript"></script>
+    </body>
+    </html>
+<!-- 
+    <script> 
+    let string = ''
+    for(i=0; i < 7; i++) {
+      string = "<div class = 'taken' ></div>";
+    }
+    document.getElementById("grid").innerHTML = string
+   </script> -->
